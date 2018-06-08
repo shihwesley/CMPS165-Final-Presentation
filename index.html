@@ -49,14 +49,14 @@
 <script src="sankey.js"></script>
 
 <div style = "text-align:center">
-  <input type="checkbox" value="sativa" onclick=filterBy(this.value) checked>Sativa
-  <input type="checkbox" value="indica" onclick=filterBy(this.value)>Indica
+  <input type="checkbox" value="sativa" onclick=filterBy(this.value)>Sativa
+  <input type="checkbox" value="indica" onclick=filterBy(this.value) checked>Indica
   <input type="checkbox" value="hybrid" onclick=filterBy(this.value)>Hybrid
 </div>
 
 <script>
     
-var filter = ["sativa"];
+var filter = ["indica"];
 	
 var units = "strains";
 var tooltip;
@@ -162,6 +162,22 @@ d3.json("strains.json", function(error, graph) {
       })
       .style("stroke", function(d) { 
 		  return d3.rgb(d.color).darker(2); })
+      .on("mouseover", function(d) {
+        console.log(d.name);
+        link.style("opacity", function(l) {
+            if (l.source.node == d.node || l.target.node == d.node) {
+                 return 1;
+            } else {
+                return 0.1;
+            }
+        })
+      })
+      .on("mouseout", function(d) {
+         //  console.log("mouseout ");
+          link.style("opacity", function(l) {
+              return 0.8;
+          });
+      })
     .append("title")
       .text(function(d) { 
 		  if (d.type == "effect") { // TOOLTOP FOR NODES
@@ -222,7 +238,7 @@ function filterBy(x) {
     clearSankey();
     render();
 }
-
+    
 </script>
 
 </body>
