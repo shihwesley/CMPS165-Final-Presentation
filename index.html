@@ -3,8 +3,16 @@
 <title>SANKEY Experiment</title>
 
 <head>
-    <h1 style = "text-align:center"><strong>Cannabis Strains: Emotions and Medical Relief</strong></h1>
-    <h2 style = "text-align:center"><strong>Sankey Diagram of certain strains' effects and medical benefits.</strong></h2>
+    <h1 style = "text-align:center; font-size: 45px"><strong>Cannabis Strains: Emotions and Medical Relief</strong></h1>
+    <p style="text-align: center;">
+        Cannabis, also known as Marijuana, Pot, or Weed, is a psychoactive drug from the Cannabis plant that changes the
+        <br>brain's functions, resulting in alterations in perception, mood, and more. The main reason for the alterations is 
+        <br>Tetrahydrocannabinol, or THC. THC can alter the brain's functions so that users can experience different feelings. 
+        <br>Some enjoy different effects, so they take it for recreational purposes. Others require the drug, for medical purposes. 
+        <br>It can be used to treat a number of problems, such as muscle spasms, or even chronic pain. Being legalized in the recent
+        <br>years, Cannabis is now available for anyone over 21 years old. There are over 2400 strains, providing 2400 different 
+        <br>effects. Go try some, and see what's best for you! 
+    </p>
 </head>
 
 <style>
@@ -41,6 +49,11 @@
     pointer-events: none;
     padding: 4px;
 }
+    
+    body {
+        background-color: #f2f1ea;
+    }
+    
 
 </style>
 <body>
@@ -49,9 +62,15 @@
 <script src="sankey.js"></script>
 
 <div style = "text-align:center">
-  <input type="checkbox" value="sativa" onclick=filterBy(this.value)>Sativa
-  <input type="checkbox" value="indica" onclick=filterBy(this.value) checked>Indica
-  <input type="checkbox" value="hybrid" onclick=filterBy(this.value)>Hybrid
+  <input type="checkbox" value="sativa" onclick=filterBy(this.value)><span style="color:blue">Sativa</span>
+  <input type="checkbox" value="indica" onclick=filterBy(this.value) checked><span style="color:red">Indica</span>
+  <input type="checkbox" value="hybrid" onclick=filterBy(this.value)><span style="color:purple">Hybrid</span>
+</div>
+    
+<div style="clear: both">
+    <h2 style="float: left; display: inline; color: orange">Emotional Effects</h2>
+    <h2 style="float: left; display: inline; margin-left: 35%">Strains</h2>
+    <h2 style="float: right; display: inline; color: #42f48c">Medical Purposes</h2>
 </div>
 
 <script>
@@ -136,14 +155,31 @@ d3.json("strains.json", function(error, graph) {
       .attr("class", "node")
       .attr("transform", function(d) { 
 		  return "translate(" + d.x + "," + d.y + ")"; })
-      .call(d3.drag()
-        .subject(function(d) {
-          return d;
-        })
-        .on("start", function() {
-          this.parentNode.appendChild(this);
-        })
-        .on("drag", dragmove));
+      .on("click", function(d) {
+          // console.log("clicked!");
+          if(d3.select(this).attr("data-clicked") == "1") {
+              d3.select(this).attr("data-clicked","0");
+              link.style("opacity", 1)
+          } else {
+              d3.select(this).attr("data-clicked", "1");
+              link.style("opacity", function(l) {
+                if (l.source.node == d.node || l.target.node == d.node) {
+                     return 1;
+                } else {
+                    return 0.05;
+                }
+              })
+          }
+          
+      })
+//      .call(d3.drag()
+//        .subject(function(d) {
+//          return d;
+//        })
+//        .on("start", function() {
+//          this.parentNode.appendChild(this);
+//        })
+//        .on("drag", dragmove));
 
 // add the rectangles for the nodes
   node.append("rect")
@@ -162,22 +198,22 @@ d3.json("strains.json", function(error, graph) {
       })
       .style("stroke", function(d) { 
 		  return d3.rgb(d.color).darker(2); })
-      .on("mouseover", function(d) {
-        console.log(d.name);
-        link.style("opacity", function(l) {
-            if (l.source.node == d.node || l.target.node == d.node) {
-                 return 1;
-            } else {
-                return 0.1;
-            }
-        })
-      })
-      .on("mouseout", function(d) {
-         //  console.log("mouseout ");
-          link.style("opacity", function(l) {
-              return 0.8;
-          });
-      })
+//      .on("mouseover", function(d) {
+//        console.log(d.name);
+//        link.style("opacity", function(l) {
+//            if (l.source.node == d.node || l.target.node == d.node) {
+//                 return 1;
+//            } else {
+//                return 0.1;
+//            }
+//        })
+//      })
+//      .on("mouseout", function(d) {
+//         //  console.log("mouseout ");
+//          link.style("opacity", function(l) {
+//              return 0.8;
+//          });
+//      })
     .append("title")
       .text(function(d) { 
 		  if (d.type == "effect") { // TOOLTOP FOR NODES
@@ -219,6 +255,51 @@ d3.json("strains.json", function(error, graph) {
 }
 
 render();
+    
+function highlight_node_links(node,i){
+
+    var remainingNodes=[],
+        nextNodes=[];
+
+    var stroke_opacity = 0;
+    if( d3.select(this).attr("data-clicked") == "1" ){
+      d3.select(this).attr("data-clicked","0");
+      stroke_opacity = 0.2;
+    }else{
+      d3.select(this).attr("data-clicked","1");
+      stroke_opacity = 0.5;
+    }
+
+    var traverse = [{
+                      linkType : "sourceLinks",
+                      nodeType : "target"
+                    },{
+                      linkType : "targetLinks",
+                      nodeType : "source"
+                    }];
+
+    traverse.forEach(function(step){
+      node[step.linkType].forEach(function(link) {
+        remainingNodes.push(link[step.nodeType]);
+        highlight_link(link.id, stroke_opacity);
+      });
+
+      while (remainingNodes.length) {
+        nextNodes = [];
+        remainingNodes.forEach(function(node) {
+          node[step.linkType].forEach(function(link) {
+            nextNodes.push(link[step.nodeType]);
+            highlight_link(link.id, stroke_opacity);
+          });
+        });
+        remainingNodes = nextNodes;
+      }
+    });
+}
+
+function highlight_link(id,opacity){
+    d3.select("#link-"+id).style("stroke-opacity", opacity);
+}
 
 function clearSankey() {
     var sankeyDiagram = document.getElementById('sankeydiagram');
