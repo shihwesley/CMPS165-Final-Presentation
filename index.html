@@ -1,69 +1,346 @@
 <!DOCTYPE html>
+<meta charset="utf-8">
+<title>Cannabis Strains</title>
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Final Presentation</title>
-		<script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
-		<style type="text/css">
-			
-			html, body {
-				height: 100%;
-				margin-bottom: 10px;
-				
-			}
-			html {
-				display: table;
-				margin: auto;
-				margin-bottom: 10px;
-			}
-			body {
-				width: 600px;
-				height: 100%;
-				vertical-align: middle;
-				margin-bottom: 10px;
-				background-color: lightgreen;
-			}
-		</style>
-	</head>
-	<body>
-        <h1>Cannabis Strains: Emotions and Medical Relief</h1>
-        <br>
-	Collaborators: <br>
-	<ul>
-		<li><a href="https://github.com/shihwesley/">Wesley Shih</a> weshih@ucsc.edu</li>
-		<li><a href="https://github.com/michaelnguy/">Michael Nguyen</a> mnguye84@ucsc.edu</li>
-		<li><a href="https://github.com/KevLoi">Kevin Loi</a> kloi@ucsc.edu</li>
-		<li><a href="https://github.com/alelevy">Andie Levy</a> alelevy@ucsc.edu</li>
-	</ul>
-        <br>
-        <p>Objective: There are a vast variety of marijuana strains. Like wine, strains have their own unique smell, taste, and effects on consumption. We want this data visualization to help the user discover new strains that may align with their preferrences. Users may filter the data visualization by type, rating, effects, and flavor.</p>
-        <br>
-        <p>My data source:</p>
-        <ul> 
-		<li>  <a href="https://www.kaggle.com/kingburrito666/cannabis-strains/data">https://www.kaggle.com/kingburrito666/cannabis-strains/data</a> </li>
-		<li>  <a href="https://www.leafly.com/explore/sort-alpha">https://www.leafly.com/explore/sort-alpha</a> </li>
-		<li>  <a href="https://herb.co/cannabis/strains">https://herb.co/cannabis/strains</a></li>
-        </ul>
-        <br>
-	<p>Data Design: </p>
-	<ul>
-		<li>Strains</li>
-		<li>Type</li>
-		<li>flavors</li>
-		<li>Effects</li>
-		<li>Ratings</li>
-	</ul>
-	<br>
-        <p>Relavent Visualizations:</p>
-        <ul>
-		<li> <a href="http://bl.ocks.org/Neilos/584b9a5d44d5fe00f779">http://bl.ocks.org/Neilos/584b9a5d44d5fe00f779</a> </li>
-            	<li> <a href="https://visual.ly/community/infographic/health/legal-weed%E2%80%99s-top-10-greatest-hits">https://visual.ly/community/infographic/health/legal-weed%E2%80%99s-top-10-greatest-hits</a></li>
-		<li> <a href="http://www.kannapedia.net/cannabis-phylotree/">http://www.kannapedia.net/cannabis-phylotree/</a></li>
-        </ul>
-		
-		<p>Pen-n-Paper Sketch</p>
-		<img src="http://www.simpleimageresizer.com/_uploads/photos/a1d87fd4/Screen_Shot_2018-05-31_at_1.00.17_PM_35.png" alt="Pen-n-Paper"> <br>
+<head>
+    <h1 style = "text-align:center; font-size: 45px"><strong>Cannabis Strains: Emotions and Medical Relief</strong></h1>
+    <p style="text-align: center;">
+        Cannabis commonly known as Marijuana or Weed is a psychoactive drug, that has just recently been legalized in several states in <br>America. As of January 1st, 2018, California legalized the substance recrationally. Though this has been a highly criminalized <br>drug through history, this substance can be used to help treat many medical conditions (physically & mentally). There are over <br>2400 strains that differ in the apperence, smell, taste, and the common emotional effects they produce when consumed. In the <br>following data, there are the 118 most common strains found locally in Santa Cruz, Calfornia in 2018.  
+    </p>
+</head>
+
+<style>
+
+.node rect {
+  cursor: move;
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+}
+
+.node text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .2;
+}
+
+.link:hover {
+  stroke: green;
+  stroke-opacity: 1;
+}
+    
+.tooltip { 
+    position: absolute;
+	text-align: center;
+	padding: 2px;
+	font: 12px sans-serif;
+	background: aliceblue;
+	border: 0px;
+	border-radius: 8px;
+	pointer-events: none;
+}
+    
+    body {
+        background-color: #f2f1ea;
+    }
+    
+
+</style>
+<body>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="sankey.js"></script>
+
+
+<div style = "text-align:center">
+  <input type="radio" name ="type" value="sativa" onclick=filterBy(this.value)><span style="color:blue">Sativa (21)<br/></span>
+  <input type="radio" name ="type" value="indica" onclick=filterBy(this.value) checked><span style="color:red">Indica (33)<br/></span>
+  <input type="radio" name ="type" value="hybrid" onclick=filterBy(this.value)><span style="color:purple">Hybrid (65)<br/></span>
+  <input type="radio" name ="type" value="all" onclick=filterBy("0")><span style="color:black">All Strains (118)</span> 
+</div>
+    
+<div style="clear: both">
+    <h2 style="float: left; display: inline; color: orange">Emotional Effects</h2>
+    <h2 style="float: center; display: inline; margin-left: 32%">Strains</h2>
+    <h2 style="float: right; display: inline; color: #42f48c">Medical Purposes</h2>
+</div>
+
+<script>
+    
+var filter = ["indica"];
 	
-		<a href="https://github.com/shihwesley/CMPS165-Final-Presentation">Final Project Github Repository</a>
-	
+var units = "strains";
+var tooltip;
+
+// set the dimensions and margins of the graph
+var margin = {top: 10, right: 10, bottom: 10, left: 10},
+    width = 1225 - margin.left - margin.right,
+    height = 1000 - margin.top - margin.bottom;
+
+// format variables
+var formatNumber = d3.format(",.0f"),    // zero decimal places
+    format = function(d) { return formatNumber(d) + " " + units; },
+    color = d3.scaleOrdinal(d3.schemeCategory20);
+
+// append the svg object to the body of the page
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("id", "sankeydiagram")
+    .attr("transform", 
+          "translate(" + margin.left + "," + margin.top + ")");
+
+// Set the sankey diagram properties
+var sankey = d3.sankey()
+    .nodeWidth(40)
+    .nodePadding(2)
+    .size([width, height]);
+
+var path = sankey.link();
+
+// load the data
+function render() {
+d3.json("strains.json", function(error, graph) {
+
+  sankey
+      .nodes(graph.nodes)
+      .links(graph.links)
+      .layout(32);
+
+// add in the links
+  var link = svg.append("g").selectAll(".link")
+      .data(graph.links.filter(function(d) {
+          for (var i = 0; i < filter.length; i++) {
+            if (d.target.type == filter[i] || d.source.type == filter[i]) {
+              return true;
+            }
+          }
+          return false;
+      }))
+    .enter().append("path")
+      .attr("class", "link")
+      .attr("d", path)
+      .style("stroke-width", function(d) { return Math.max(1, d.dy); })
+      .sort(function(a, b) { return b.dy - a.dy; });
+
+// add the link titles
+  link.append("title")
+        .text(function(d) {
+    		if (d.source.type == "effect") { // TOOLTOP FOR LINKS
+                return d.target.name + "\nInduces: " + d.source.name;
+            } else {
+                return d.source.name + "\nRelieves: " + d.target.name;
+            } });
+
+// add in the nodes
+  var node = svg.append("g").selectAll(".node")
+      .data(graph.nodes.filter(function(d) {
+          for (var i = 0; i < filter.length; i++) {
+            if (d.type == filter[i] || d.type == "effect" || d.type == "medical") {
+              return true;
+            }
+          }
+          return false;
+      }))
+    .enter().append("g")
+      .attr("class", "node")
+      .attr("transform", function(d) { 
+		  return "translate(" + d.x + "," + d.y + ")"; })
+      .on("click", function(d) {
+          // console.log("clicked!");
+          if(d3.select(this).attr("data-clicked") == "1") {
+              d3.select(this).attr("data-clicked","0");
+              link.style("opacity", 1)
+          } else {
+              d3.select(this).attr("data-clicked", "1");
+              link.style("opacity", function(l) {
+                if (l.source.node == d.node || l.target.node == d.node) {
+                     return 1;
+                } else {
+                    return 0.05;
+                }
+              })
+          }
+          
+      })
+//      .call(d3.drag()
+//        .subject(function(d) {
+//          return d;
+//        })
+//        .on("start", function() {
+//          this.parentNode.appendChild(this);
+//        })
+//        .on("drag", dragmove));
+
+// add the rectangles for the nodes
+  node.append("rect")
+      .attr("height", function(d) { return d.dy; })
+      .attr("width", sankey.nodeWidth())
+      .style("fill", function(d) { 
+            switch (d.type)
+            {
+               case "sativa": return "blue";
+               case "indica": return "red";
+               case "hybrid": return "purple";
+               case "effect": return "orange";
+               case "medical": return "#42f48c";
+               default: return "#7d41f4";
+            }
+      })
+      .style("stroke", function(d) { 
+		  return d3.rgb(d.color).darker(2); })
+//      .on("mouseover", function(d) {
+//        console.log(d.name);
+//        link.style("opacity", function(l) {
+//            if (l.source.node == d.node || l.target.node == d.node) {
+//                 return 1;
+//            } else {
+//                return 0.1;
+//            }
+//        })
+//      })
+//      .on("mouseout", function(d) {
+//         //  console.log("mouseout ");
+//          link.style("opacity", function(l) {
+//              return 0.8;
+//          });
+//      })
+    .append("title")
+      .text(function(d) { 
+		  if (d.type == "effect") { // TOOLTOP FOR NODES
+            return "Effect: " + d.name + "\nDefinition: " + d.description;
+        } else if (d.type == "medical") {
+            return "Medical Problem: " + d.name + "\nDefinition: " + d.description;
+        } else {
+            return "Strain Name: " + d.name + "\nUser Ratings: " + d.rating + "/5" + "\nDescription: " + d.description;       
+        } });
+
+    
+    node.append("text")
+			  .attr("class","nodeValue")
+			  .text(function(d) { return d.name + "\n" + format(d.rating); });
+
+		  node.selectAll("text.nodeValue")
+			  .attr("x", sankey.nodeWidth() / 2)
+			  .attr("y", function (d) { return (d.dy / 2) })
+			  .text(function (d) { 
+              if((d.type == "effect" || d.type == "medical") && filter.length > 1){
+                  return formatNumber(d.rating);
+                 }
+                 return null;})
+            .style("font-size", "9px")
+			  .attr("dy", 5)
+			  .attr("text-anchor", "middle");
+
+// add in the title for the nodes
+  node.append("text")
+      .attr("x", -6)
+      .attr("y", function(d) { return d.dy / 2; })
+      .attr("dy", ".35em")
+      .attr("text-anchor", "end")
+      .attr("transform", null)
+      .text(function(d) { return d.name; })
+      .style("font-size", function(d) { 
+        if (d.type == "effect" || d.type == "medical") { return "15px";} 
+            else { return "10px"; }}) // FONT SIZE FOR NODES
+    
+    .filter(function(d) { return d.x < width / 2; })
+      .attr("x", 6 + sankey.nodeWidth())
+      .attr("text-anchor", "start");
+
+// the function for moving the nodes
+  function dragmove(d) {
+    d3.select(this)
+      .attr("transform", 
+            "translate(" 
+               + d.x + "," 
+               + (d.y = Math.max(
+                  0, Math.min(height - d.dy, d3.event.y))
+                 ) + ")");
+    sankey.relayout();
+    link.attr("d", path);
+  }
+});
+}
+
+render();
+    
+function highlight_node_links(node,i){
+
+    var remainingNodes=[],
+        nextNodes=[];
+
+    var stroke_opacity = 0;
+    if( d3.select(this).attr("data-clicked") == "1" ){
+      d3.select(this).attr("data-clicked","0");
+      stroke_opacity = 0.2;
+    }else{
+      d3.select(this).attr("data-clicked","1");
+      stroke_opacity = 0.5;
+    }
+
+    var traverse = [{
+                      linkType : "sourceLinks",
+                      nodeType : "target"
+                    },{
+                      linkType : "targetLinks",
+                      nodeType : "source"
+                    }];
+
+    traverse.forEach(function(step){
+      node[step.linkType].forEach(function(link) {
+        remainingNodes.push(link[step.nodeType]);
+        highlight_link(link.id, stroke_opacity);
+      });
+
+      while (remainingNodes.length) {
+        nextNodes = [];
+        remainingNodes.forEach(function(node) {
+          node[step.linkType].forEach(function(link) {
+            nextNodes.push(link[step.nodeType]);
+            highlight_link(link.id, stroke_opacity);
+          });
+        });
+        remainingNodes = nextNodes;
+      }
+    });
+}
+
+function highlight_link(id,opacity){
+    d3.select("#link-"+id).style("stroke-opacity", opacity);
+}
+
+function clearSankey() {
+    var sankeyDiagram = document.getElementById('sankeydiagram');
+    sankeyDiagram.innerHTML = '';
+}
+    
+function filterBy(x) {
+    console.log(x);
+    for (var key in filter) {
+        console.log(key);
+    }
+    if (x != "0") {
+        while(filter.pop());
+        filter.push(x);
+        sankey.relayout();
+        
+    }
+    else{
+        filter.push("indica");
+        filter.push("sativa");
+        filter.push("hybrid");
+    }
+    
+    clearSankey();
+    render();
+}
+    
+</script>
+
+</body>
