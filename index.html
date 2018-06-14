@@ -312,7 +312,10 @@ function filterBy(x) {
         console.log(key);
     }
     if (filter.includes(x)) {
-        filter.pop(x);
+        var index = filter.indexOf(x);
+        if (index > -1) {
+          filter.splice(index, 1);
+        }
     } else {
         filter.push(x);
     }
