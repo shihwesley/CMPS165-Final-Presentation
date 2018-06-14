@@ -5,13 +5,7 @@
 <head>
     <h1 style = "text-align:center; font-size: 45px"><strong>Cannabis Strains: Emotions and Medical Relief</strong></h1>
     <p style="text-align: center;">
-        Cannabis, also known as Marijuana, Pot, or Weed, is a psychoactive drug from the Cannabis plant that changes the
-        <br>brain's functions, resulting in alterations in perception, mood, and more. The main reason for the alterations is 
-        <br>Tetrahydrocannabinol, or THC. THC can alter the brain's functions so that users can experience different feelings. 
-        <br>Some enjoy different effects, so they take it for recreational purposes. Others require the drug, for medical purposes. 
-        <br>It can be used to treat a number of problems, such as muscle spasms, or even chronic pain. Being legalized in the recent
-        <br>years, Cannabis is now available for anyone over 21 years old. There are over 2400 strains, providing 2400 different 
-        <br>effects. Go try some, and see what's best for you! 
+        Cannabis commonly known as Marijuana or Weed is a psychoactive drug, that has just recently been legalized in several states in <br>America. As of January 1st, 2018, California legalized the substance recrationally. Though this has been a highly criminalized <br>drug through history, this substance can be used to help treat many medical conditions (physically & mentally). There are over <br>2400 strains that differ in the apperence, smell, taste, and the common emotional effects they produce when consumed. In the <br>following data, there are the 118 most common strains found locally in Santa Cruz, Calfornia in 2018.  
     </p>
 </head>
 
@@ -41,7 +35,6 @@
     
 .tooltip { 
     position: absolute;
-    opacity: 0;
 	text-align: center;
 	padding: 2px;
 	font: 12px sans-serif;
@@ -72,7 +65,7 @@
     
 <div style="clear: both">
     <h2 style="float: left; display: inline; color: orange">Emotional Effects</h2>
-    <h2 style="float: left; display: inline; margin-left: 35%">Strains</h2>
+    <h2 style="float: center; display: inline; margin-left: 32%">Strains</h2>
     <h2 style="float: right; display: inline; color: #42f48c">Medical Purposes</h2>
 </div>
 
@@ -226,8 +219,29 @@ d3.json("strains.json", function(error, graph) {
             return "Medical Problem: " + d.name + "\nDefinition: " + d.description;
         } else {
             return "Strain Name: " + d.name + "\nUser Ratings: " + d.rating + "/5" + "\nDescription: " + d.description;       
+<<<<<<< HEAD
         } })
       ;
+=======
+        } });
+
+    
+    node.append("text")
+			  .attr("class","nodeValue")
+			  .text(function(d) { return d.name + "\n" + format(d.rating); });
+
+		  node.selectAll("text.nodeValue")
+			  .attr("x", sankey.nodeWidth() / 2)
+			  .attr("y", function (d) { return (d.dy / 2) })
+			  .text(function (d) { 
+              if((d.type == "effect" || d.type == "medical") && filter.length > 1){
+                  return formatNumber(d.rating);
+                 }
+                 return null;})
+            .style("font-size", "9px")
+			  .attr("dy", 5)
+			  .attr("text-anchor", "middle");
+>>>>>>> 408ffb833a02199b3007f0ba4225efd2d263c934
 
 // add in the title for the nodes
   node.append("text")
@@ -240,6 +254,7 @@ d3.json("strains.json", function(error, graph) {
       .style("font-size", function(d) { 
         if (d.type == "effect" || d.type == "medical") { return "15px";} 
             else { return "10px"; }}) // FONT SIZE FOR NODES
+    
     .filter(function(d) { return d.x < width / 2; })
       .attr("x", 6 + sankey.nodeWidth())
       .attr("text-anchor", "start");
@@ -319,6 +334,7 @@ function filterBy(x) {
     if (x != "0") {
         while(filter.pop());
         filter.push(x);
+        sankey.relayout();
         
     }
     else{
@@ -326,6 +342,7 @@ function filterBy(x) {
         filter.push("sativa");
         filter.push("hybrid");
     }
+    
     clearSankey();
     render();
 }

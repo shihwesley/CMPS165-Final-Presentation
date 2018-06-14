@@ -5,84 +5,88 @@
     "name": "707-Headband",
     "type": "hybrid",
     "rating": 4.3,
+<<<<<<< HEAD
     "description": "An indica dominant hybrid, this strain is known to have high THC levels and can be strong, but it's balanced enough to leave most users feeling heady and creative rather than sleepy."
+=======
+    "description": "An indica dominant hybrid, this strain is known to have high THC levels and can be strong, but it's balanced enough to leave most users feeling a head high and creative rather than sleepy."
+>>>>>>> 408ffb833a02199b3007f0ba4225efd2d263c934
   },
   {
     "node": 1,
     "name": "9-Pound-Hammer",
     "type": "indica",
     "rating": 4.5,
-    "description": "True to its indica dominance, effects are heavy and long-lasting, useful for pain and stress relief."
+    "description": "9 Pound Hammer is an 80% indica strain offers a sweet grape and lime flavors. True to its indica dominance, effects are heavy and long-lasting, useful for pain and stress relief. Best grown indoors, 9 Pound Hammer will deliver a heavy yield, flowering between 50 and 60 days."
   },
   {
     "node": 2,
     "name": "Ak-47",
     "type": "hybrid",
     "rating": 4.2,
-    "description": "Don't let its intense name fool you: AK-47 will leave you relaxed and mellow. This sativa-dominant hybrid delivers a steady and long-lasting cerebral buzz that keeps you mentally alert and engaged in creative or social activities."
+    "description": "AK-47 will leave you relaxed and mellow. This sativa-dominant hybrid delivers a steady and long-lasting cerebral buzz that keeps you mentally alert and engaged in creative or social activities."
   },
   {
     "node": 3,
     "name": "Afghani",
     "type": "indica",
     "rating": 4.3,
-    "description": "Afghani is a heavy indica strain named after its geographic origin, where the earliest varieties of cannabis are believed to have grown."
+    "description": "Afghani is a heavy indica strain delivers a deep, sedating relaxation and euphoria. Patients most commonly turn to this potent indica to treat insomnia, pain, and stress disorders."
   },
   {
     "node": 4,
     "name": "Agent-Orange",
     "type": "hybrid",
     "rating": 4.2,
-    "description": "The effects are uplifting and motivating, serving as a great mood enhancer if you are feeling lethargic or depressed."
+    "description": "Don't let the name scare you! The only herbicidal warfare Agent Orange will wage is between the excellence of this strain's flavors and uplifting effects. The effects are uplifting and motivating, serving as a great mood enhancer if you are feeling lethargic or depressed."
   },
   {
     "node": 5,
     "name": "Amnesia-Haze",
     "type": "sativa",
     "rating": 4.3,
-    "description": "With earthy flavors of lemons and citrus, Amnesia Haze is a perfect strain to start your day with a smile. The uplifting, energetic buzz is one you won't soon forget."
+    "description": "With earthy flavors of lemons and citrus, Amnesia Haze is an uplifting, energetic buzz."
   },
   {
     "node": 6,
     "name": "Ancient-Og",
     "type": "indica",
     "rating": 4.6,
-    "description": "Ancient OG from Bodhi Seeds is a mostly indica strain descended from an Iranian landrace and Snow Lotus."
+    "description": "Ancient OG from Bodhi Seeds is a mostly indica strain has aromatic notes of earthy pine and sweet citrus."
   },
   {
     "node": 7,
     "name": "Animal-Cookies",
     "type": "hybrid",
     "rating": 4.5,
-    "description": "This potent medicine might be overkill for mild symptoms, but its ability to obliterate severe pain and insomnia is unprecedented."
+    "description": "Animal Cookies has a sweet, sour aroma with heavy full-body effects that will impress any veteran consumer. This potent medicine might be overkill for mild symptoms, but its ability to obliterate severe pain and insomnia is unprecedented."
   },
   {
     "node": 8,
     "name": "Apple-Jack",
     "type": "hybrid",
     "rating": 3.6,
-    "description": "This strain works wonders for patients and consumers suffering from chronic physical pain and nausea. Apple Jack's aroma, as you might guess, is one of sweet sliced apples with hints of skunk and earth."
+    "description": "Apple Jack is a potent combination that embodies the uplifted clarity of Jack Herer while applying a warm, soothing relaxation to the body. This strain works wonders for patients and consumers suffering from chronic physical pain and nausea. Apple Jack's aroma, as you might guess, is one of sweet sliced apples with hints of skunk and earth."
   },
   {
     "node": 9,
     "name": "Berry-White",
     "type": "indica",
     "rating": 4.4,
-    "description": "Berry is famous in its own right for its even, balanced effects that offer relaxation from stress and anxiety along with a sense of euphoria. This strain is perfect for inspiring an upbeat mood and may lead to conversation and creative pursuits."
+    "description": "Berry White is a hybrid strain that offers relaxation from stress and anxiety along with a sense of euphoria. This strain is perfect for inspiring an upbeat mood and may lead to conversation and creative pursuits."
   },
   {
     "node": 10,
     "name": "Black-Cherry-Pie",
     "type": "hybrid",
     "rating": 5,
-    "description": "Black Cherry Pie's physical effects soothe nausea and minor aches and pains while keeping the mind aloof and creative. Its bright mind and semi-sedative effects make it a natural complement for indoor activities and relaxed evenings."
+    "description": "Black Cherry Pie is a fruity strain with colorful foliage. Its bright mind and semi-sedative effects make it a natural complement for indoor activities and relaxed evenings."
   },
   {
     "node": 11,
     "name": "Black-Jack",
     "type": "hybrid",
     "rating": 4.4,
-    "description": "Because of its high THC levels, Black Jack is popular among medical marijuana patients."
+    "description": "Black Jack is a marijuana strain that produces hard buds with huge, grape-like calyxes that are completely encrusted with THC. The taste is heavy and flavorful and the strain produces exceptionally long-lasting effects."
   },
   {
     "node": 12,
@@ -103,7 +107,7 @@
     "name": "Blackberry-Kush",
     "type": "indica",
     "rating": 4.3,
-    "description": "This mostly indica strain is a mix of Afghani and Blackberry strains and has beautiful dark purple buds with orange hairs. Plants will flower at 7-8 weeks and are not particularly high yielders, but the dense, hard nugs have crystals throughout. Blackberry Kush tends to have a hashy, jet fuel smell and taste that is balanced by sweet berries. Blackberry Kush is often recommended for the treatment of pain thanks to its strong indica body effects."
+    "description": "Blackberry Kush is often recommended for the treatment of pain thanks to its strong indica body effects."
   },
   {
     "node": 15,
@@ -117,7 +121,7 @@
     "name": "Blue-Dream",
     "type": "hybrid",
     "rating": 4.4,
-    "description": "With a sweet berry aroma redolent of its Blueberry parent, Blue Dream delivers swift symptom relief without heavy sedative effects. This makes Blue Dream a popular daytime medicine for patients treating pain, depression, nausea, and other ailments requiring a high THC strain."
+    "description": " Blue Dream balances full-body relaxation with gentle cerebral invigoration. Novice and veteran consumers alike enjoy the level effects of Blue Dream, which ease you gently into a calm euphoria."
   },
   {
     "node": 17,
@@ -131,49 +135,49 @@
     "name": "Blueberry-Diesel",
     "type": "hybrid",
     "rating": 4.2,
-    "description": "Blueberry Diesel is a cross of two favorite strains, Blueberry and Sour Diesel. It is probably best known for its strong blueberry smell with hints of fuel from its Diesel lineage. Blueberry also overwhelms the flavor of these sticky flowers, which should have plenty of trichomes and long orange hairs."
+    "description": "Effects tend to be happy and relaxing but not too overwhelming, making this a popular choice for many kinds of patients."
   },
   {
     "node": 19,
     "name": "Blueberry-Kush",
     "type": "indica",
     "rating": 4.3,
-    "description": "Blueberry Kush is a strong indica strain that slowly brings on a heavy body sensation, helping patients forget their pain and relax. This indica is best for evenings or before bed."
+    "description": "Blueberry Kush is a strong indica strain that slowly brings on a heavy body sensation, helping patients forget their pain and relax."
   },
   {
     "node": 20,
     "name": "Blueberry-Og",
     "type": "hybrid",
     "rating": 4.6,
-    "description": "This potent, award-winning union doesn't pack much in the way of psychoactivity, but its anti-anxiety and anti-inflammatory effects make up for any lack of headiness. With flavors of sweet camphor and sandalwood, this strain elevates the consumer's mood and promotes an overall sense of well being."
+    "description": "Blueberry OG is indica-dominant its anti-anxiety and anti-inflammatory effects make up for any lack of headiness. With flavors of sweet camphor and sandalwood, this strain elevates the consumer's mood and promotes an overall sense of well being."
   },
   {
     "node": 21,
     "name": "Bubba-Kush",
     "type": "indica",
     "rating": 4.3,
-    "description": "Bubba Kush is an indica strain that has gained notoriety in the U.S. and beyond for its heavy tranquilizing effects. Sweet hashish flavors with subtle notes of chocolate and coffee come through on the exhale, delighting the palate as powerful relaxation takes over."
+    "description": "Bubba Kush is an indica strain that has gained notoriety in the U.S. and beyond for its heavy tranquilizing effects."
   },
   {
     "node": 22,
     "name": "Candyland",
     "type": "sativa",
     "rating": 4.6,
-    "description": "Candyland, a gold medalist of the 2012 KushCon, is a sativa-dominant hybrid bred from Granddaddy Purple and Bay Platinum Cookies. Golden hairs weave through Candyland's thick coat of sugar-like trichomes and highlight the compact, camouflage-colored buds. This strain grows well indoors and out, and patients turn to Candyland to relieve pain, muscle tension, and sour moods. Strong sativa genetics give Candyland uplifting and stimulating effects, making it a perfect strain for social gatherings or creative pastimes."
+    "description": "Candyland is a sativa-dominant hybrid. Patients turn to Candyland to relieve pain, muscle tension, and sour moods. Strong sativa genetics give Candyland uplifting and stimulating effects, making it a perfect strain for social gatherings or creative pastimes."
   },
   {
     "node": 23,
     "name": "Cannatonic",
     "type": "hybrid",
     "rating": 4.3,
-    "description": "Cannatonic is a unique hybrid strain bred by Spanish seed bank Resin Seeds specifically for its low THC content (rarely above 6%) and high CBD content (6-17%).  A cross between a female MK Ultra and a famous G13 Haze male, it produces a relatively short-lived, mellow high that is also uplifting and powerfully relaxing, thanks to the high CBD content.  As one of the premier medical strains, Cannatonic is often used to treat pain, muscle spasms, anxiety, migraines, and a wide variety of other physiological and psychological symptoms."
+    "description": "Cannatonic is often used to treat pain, muscle spasms, anxiety, migraines, and a wide variety of other physiological and psychological symptoms.  Most phenotypes present with a slight earthy odor and a mild, sweet, vaguely citrusy flavor."
   },
   {
     "node": 24,
     "name": "Cheese",
     "type": "hybrid",
     "rating": 4.1,
-    "description": "Named for its sharply sour aroma, Cheese is an indica-dominant hybrid from the U.K. that has achieved widespread popularity for its unique flavor and consistent potency. The resulting hybrid is now well-known for its relaxed, happy effects that gently ease you into a blissful state of mind."
+    "description": "Named for its sharply sour aroma, Cheese is an indica-dominant hybrid from the U.K. that has achieved widespread popularity for its unique flavor and consistent potency. With origins that stretch back to the late 1980s, Cheese is said to descend from a Skunk #1 phenotype whose pungent aroma made it stand out. Breeders like Big Buddha Seeds later introduced Afghani indica genetics to increase Cheese's trichome production and yields. The resulting hybrid is now well-known for its relaxed, happy effects that gently ease you into a blissful state of mind."
   },
   {
     "node": 25,
@@ -187,14 +191,14 @@
     "name": "Cherry-Ak-47",
     "type": "hybrid",
     "rating": 4.4,
-    "description": "This marijuana strain is a rare cherry phenotype of AK-47. With a THC level of up to 16% and a CBD level of 0.5%, Cherry AK-47 'creeps' up from a cerebral effect to a complete body sensation."
+    "description": "This marijuana strain is a rare cherry phenotype of AK-47. With its reddish-purple characteristics and cherry aroma, it's no wonder how Cherry AK-47 got its name. The buds have gold coloring with lime-green leaves layered with trichome heads. This strain's flavors are described as smooth cherry with a creamy sandalwood aftertaste. With a THC level of up to 16% and a CBD level of 0.5%, Cherry AK-47 'creeps' up from a cerebral effect to a complete body sensation."
   },
   {
     "node": 27,
     "name": "Cherry-Cookies",
     "type": "hybrid",
     "rating": 4.6,
-    "description": "Cherry Cookies is one of the most popular Girl Scout Cookie crosses to date, ranking next to Pink Cookies and Thin Mint Girl Scout Cookies. This strain behaves like a GSC, offering a medical-grade sedation on the body with an alert mental state."
+    "description": "Cherry Cookies is one of the most popular Girl Scout Cookie crosses to date, ranking next to Pink Cookies and Thin Mint Girl Scout Cookies. With similar genetic parentage, Cherry Cookies derives from the blending of Cherry Pie (aka Cherry Kush) and Cookies F2. This cross preserves the tight, slightly purple buds and deep orange pistils while accentuating the cherry tang and tartness on the nose and exhale. This strain behaves like a GSC, offering a medical-grade sedation on the body with an alert mental state."
   },
   {
     "node": 28,
@@ -215,35 +219,35 @@
     "name": "Cotton-Candy-Kush",
     "type": "hybrid",
     "rating": 4.3,
-    "description": "Named for its soft, fluffy appearance and intense candied aroma, Cotton Candy Kush is a hybrid that crosses Lavender with Power Plant. The euphoric effects will have you feeling like a kid in a candy store, while the relaxing powers will keep stress and pain to a minimum."
+    "description": "Named for its soft, fluffy appearance and intense candied aroma, Cotton Candy Kush is a hybrid that crosses Lavender with Power Plant. The result is a pungent palate of sweet, berry flavors and a floral scent. The euphoric effects will have you feeling like a kid in a candy store, while the relaxing powers will keep stress and pain to a minimum."
   },
   {
     "node": 31,
     "name": "Deadhead-Og",
     "type": "hybrid",
     "rating": 4.4,
-    "description": "As a cross of two very potent strains, Deadhead OG regularly reaches THC levels over 20%.  Most users describe the high as cerebral and stimulating but with a relaxed body feel."
+    "description": "A modern West Coast classic, Deadhead OG was created by master breeder Skunk VA of Cali Connection Seeds by crossing two already legendary strains, Chemdawg 91 and the SFV OG Kush.  Known as a very hearty and pungent strain, most phenotypes present an earthy, piney smell and taste, though some can lean more to the diesel aromas of the SFV.  As a cross of two very potent strains, Deadhead OG regularly reaches THC levels over 20%.  Most users describe the high as cerebral and stimulating but with a relaxed body feel."
   },
   {
     "node": 32,
     "name": "Double-Dream",
     "type": "hybrid",
     "rating": 4.5,
-    "description": "With a complex flavor profile that synchronizes sweet floral notes with berries and spice, Double Dream is a soothing and mentally invigorating strain that still allows clear-headed functionality. Its dreamy, euphoric buzz is anchored by a deep, physical relaxation that mutes pain, anxiety, stress, and inflammation. Patients also turn to this uplifting strain for daytime release from PTSD, headaches, and nausea."
+    "description": "The sativa-dominant hybrid Double Dream puts a unique spin on the famed Blue Dream by crossing it with Dream Star. With a complex flavor profile that synchronizes sweet floral notes with berries and spice, Double Dream is a soothing and mentally invigorating strain that still allows clear-headed functionality. Its dreamy, euphoric buzz is anchored by a deep, physical relaxation that mutes pain, anxiety, stress, and inflammation. Patients also turn to this uplifting strain for daytime release from PTSD, headaches, and nausea."
   },
   {
     "node": 33,
     "name": "Dougs-Varin",
     "type": "sativa",
     "rating": 5,
-    "description": "Doug's Varin is a rare sativa strain that was specially crafted to contain high amounts of the cannabinoid THCV, a psychoactive cannabis compound known to relieve panic attacks, Parkinson's tremors, stimulate bone growth, and provide a burst of energy. Patient's suffering from anorexia and appetite loss should steer clear of Doug's Varin, as THCV also suppresses hunger."
+    "description": "Doug's Varin is a rare sativa strain that was specially crafted to contain high amounts of the cannabinoid THCV, a psychoactive cannabis compound known to relieve panic attacks, Parkinson's tremors, stimulate bone growth, and provide a burst of energy. Patient's suffering from anorexia and appetite loss should steer clear of Doug's Varin, as THCV also suppresses hunger. With an aroma of earthy pine and sweet citrus, Doug's Varin delivers a clear-headed burst of mental stimulation that doesn't last as long as high-THC varieties, making this strain a perfect choice for anyone seeking short-term effects."
   },
   {
     "node": 34,
     "name": "Durban-Poison",
     "type": "sativa",
     "rating": 4.4,
-    "description": "It has gained notoriety worldwide for its sweet smell and energetic, uplifting effects. Durban Poison is the perfect strain to help you stay productive through a busy day, when exploring the outdoors, or to lend a spark of creativity."
+    "description": "This pure sativa originates from the South African port city of Durban. It has gained notoriety worldwide for its sweet smell and energetic, uplifting effects. Durban Poison is the perfect strain to help you stay productive through a busy day, when exploring the outdoors, or to lend a spark of creativity. Growers and concentrate enthusiasts will both enjoy the over-sized resin glands which make this strain a quality choice for concentrate extraction. The buds are round and chunky, and leave a thick coating of trichomes on almost all areas of the plant."
   },
   {
     "node": 35,
@@ -257,7 +261,7 @@
     "name": "Earth-Og",
     "type": "hybrid",
     "rating": 4.2,
-    "description": "Earth OG effects are enjoyable for introverts and extroverts alike: an introspective, creative buzz makes this strain good for solo sessions, but social environments may also bring out its energetic, talkative qualities. Depression, stress, and anxiety stand little chance against Earth OG's uplifted mindset, and patients treating appetite loss and nausea may also benefit from its potent therapeutic effects."
+    "description": "A combination of Sour Diesel and Ghost OG, Earth OG is a cerebrally-focused hybrid with stimulating and happy effects. As its name suggests, this strain has a pleasant, earthy aroma with sour lemon undertones. Earth OG effects are enjoyable for introverts and extroverts alike: an introspective, creative buzz makes this strain good for solo sessions, but social environments may also bring out its energetic, talkative qualities. Depression, stress, and anxiety stand little chance against Earth OG's uplifted mindset, and patients treating appetite loss and nausea may also benefit from its potent therapeutic effects."
   },
   {
     "node": 37,
@@ -271,14 +275,14 @@
     "name": "Fire-Og",
     "type": "hybrid",
     "rating": 4.4,
-    "description": "Known for being one of the strongest of the OG strains, Fire OG has a strong scent similar to Lemon Pledge and an effect that can last up to 3 hours."
+    "description": "Known for being one of the strongest of the OG strains, Fire OG has a strong scent similar to Lemon Pledge and an effect that can last up to 3 hours. With parents of OG Kush and San Fernando Valley OG Kush F3, the THC can be up to 20% with a CBD of 0.36%. The plant has frost covered nuggets with red hairs, giving the appearance that it is on fire--where the name Fire OG comes from. Flowering time is generally 9-10 weeks."
   },
   {
     "node": 39,
     "name": "Forbidden-Fruit",
     "type": "indica",
     "rating": 4.6,
-    "description": "The effects hit hard between the eyes and lay into the body with each hit. Forbidden Fruit's deep physical relaxation and mental stoniness make it perfect for dulling minor physical discomfort and discarding stress."
+    "description": "Forbidden Fruit is the mouthwatering cross of Cherry Pie x Tangie. This sumptuous genetic cross expresses a beautiful dense bud structure with deep purple hues, dark green foliage, and wiry orange hairs. The terpene profile is a perfect mixture of Cherry Pie's musky, sweet cherry undertones and Tangie's loud tropical flavors. There are also notes of pine, mango, and passionfruit candy. The effects hit hard between the eyes and lay into the body with each hit. Forbidden Fruit's deep physical relaxation and mental stoniness make it perfect for dulling minor physical discomfort and discarding stress."
   },
   {
     "node": 40,
@@ -292,7 +296,7 @@
     "name": "Fruit-Spirit",
     "type": "hybrid",
     "rating": 4.4,
-    "description": " A sense of happiness eases the mind in total cerebral relaxation, making Fruit Spirit suitable for patients treating mood disorders, anxiety, or depression. This sweet-smelling hybrid flowers in 7 to 8 weeks indoors, but outdoor gardens should only be grown in warm, sunny regions."
+    "description": "Fruit Spirit is a 60% sativa-dominant hybrid that was bred by Royal Queen Seeds through crossing Blueberry and White Widow. This is a match made in heaven, as Fruit Spirit inherits a pleasant blueberry aroma and White Widow's heavy resin production. A sense of happiness eases the mind in total cerebral relaxation, making Fruit Spirit suitable for patients treating mood disorders, anxiety, or depression. This sweet-smelling hybrid flowers in 7 to 8 weeks indoors, but outdoor gardens should only be grown in warm, sunny regions."
   },
   {
     "node": 42,
@@ -306,14 +310,14 @@
     "name": "Gsc",
     "type": "hybrid",
     "rating": 4.5,
-    "description": "With a sweet and earthy aroma, GSC launches you to euphoria's top floor where full-body relaxation meets a time-bending cerebral space. A little goes a long way with this hybrid, whose THC heights have won GSC numerous Cannabis Cup awards. Patients needing a strong dose of relief, however, may look to GSC for severe pain, nausea, and appetite loss."
+    "description": "GSC, formerly known as Girl Scout Cookies, is an OG Kush and Durban Poison hybrid cross whose reputation grew too large to stay within the borders of its California homeland. With a sweet and earthy aroma, GSC launches you to euphoria's top floor where full-body relaxation meets a time-bending cerebral space. A little goes a long way with this hybrid, whose THC heights have won GSC numerous Cannabis Cup awards. Patients needing a strong dose of relief, however, may look to GSC for severe pain, nausea, and appetite loss.There are several different phenotypes of the GSC strain including Thin Mint and Platinum Cookies, which exhibit some variation in appearance and effect. Typically, however, GSC expresses its beauty in twisting green calyxes wrapped in purple leaves and fiery orange hairs. Patients and consumers looking to cultivate this cannabis staple themselves should wait 9 to 10 weeks for their indoor plants to finish flowering."
   },
   {
     "node": 44,
     "name": "Gelato",
     "type": "hybrid",
     "rating": 4.7,
-    "description": "Novice consumers may want to approach this THC powerhouse with caution, but those armed with a high tolerance will delight in Gelato's heavy-handed euphoria. Physical relaxation comes on strong, but many find themselves still mentally agile enough to stay productive and creative when enjoying Gelato during the day."
+    "description": "Gelato (also referred to as 'Larry Bird') is another tantalizing hybrid cannabis strain from Cookie Fam Genetics, following in the footsteps of its parents Sunset Sherbet and Thin Mint Girl Scout Cookies. This Bay Area, California native gets its name from the fruity, dessert-like aroma, a common genetic thread among the Cookie family. Her buds tend to bloom in dark purple hues illuminated by fiery orange hairs and a shining white coat of crystal resin. Novice consumers may want to approach this THC powerhouse with caution, but those armed with a high tolerance will delight in Gelato's heavy-handed euphoria. Physical relaxation comes on strong, but many find themselves still mentally agile enough to stay productive and creative when enjoying Gelato during the day."
   },
   {
     "node": 45,
@@ -327,21 +331,21 @@
     "name": "Golden-State-Banana",
     "type": "indica",
     "rating": 4.8,
-    "description": "Golden State Banana is a fruity indica cross of Ghost OG and Banana Kush. This semi-sedative strain fills the consumer's mind with euphoria while wrapping the limbs in a warm, relaxing sensation. Uplifting and relaxing, Golden State Banana's effects are ideal for unwinding at the end of the day while elevating mood and frontloading creativity."
+    "description": "Golden State Banana is a fruity indica cross of Ghost OG and Banana Kush. This semi-sedative strain fills the consumer's mind with euphoria while wrapping the limbs in a warm, relaxing sensation. The aroma is a mixture of Ghost OG's pungent, citrus terpenes and Banana Kush's tropical scents, creating a rich bouquet with bright floral sweetness. Uplifting and relaxing, Golden State Banana's effects are ideal for unwinding at the end of the day while elevating mood and frontloading creativity."
   },
   {
     "node": 47,
     "name": "Gorilla-Cookies",
     "type": "hybrid",
     "rating": 4.8,
-    "description": "Enjoy this one-hitter quitter with care, as the effects will alter the trajectory of your entire day. Gorilla Cookies is a quality strain for managing physical pain, nausea, and stress."
+    "description": "Gorilla Cookies by Elev8 Seeds is the powerful union of Gorilla Glue #4 and Thin Mint Girl Scout Cookies. The pungent Gorilla Glue aroma is loud, but Thin Mint's exotic terpene profile adds nuance to the bouquet. Both parents were bred for potency and that shows in the resin-coated buds that harden like stones after curing. Enjoy this one-hitter quitter with care, as the effects will alter the trajectory of your entire day. Gorilla Cookies is a quality strain for managing physical pain, nausea, and stress."
   },
   {
     "node": 48,
     "name": "Granddaddy-Purple",
     "type": "indica",
     "rating": 4.4,
-    "description": "Its potent psychoactive effects are clearly detectable in both mind and body, delivering a fusion of cerebral euphoria and physical relaxation. While your thoughts may float in a dreamy buzz, your body is more likely to find itself fixed in one spot for the duration of GDP's effects. Like most heavy indica varieties, Granddaddy Purple is typically pulled off the shelf to treat pain, stress, insomnia, appetite loss, and muscle spasms."
+    "description": "Introduced in 2003 by Ken Estes, Granddaddy Purple (or GDP) is a famous indica cross between Purple Urkle and Big Bud. This California staple inherits a complex grape and berry aroma from its Purple Urkle parent, while Big Bud passes on its oversized, compact bud structure. GDP flowers bloom in shades of deep purple, a contrastive backdrop for its snow-like dusting of white crystal resin.Its potent psychoactive effects are clearly detectable in both mind and body, delivering a fusion of cerebral euphoria and physical relaxation. While your thoughts may float in a dreamy buzz, your body is more likely to find itself fixed in one spot for the duration of GDP's effects. Like most heavy indica varieties, Granddaddy Purple is typically pulled off the shelf to treat pain, stress, insomnia, appetite loss, and muscle spasms. GDP blesses growers with massive commercial yields which are ready for harvest following a 60 day flowering time indoors."
   },
   {
     "node": 49,
@@ -362,7 +366,7 @@
     "name": "Green-Crack",
     "type": "sativa",
     "rating": 4.3,
-    "description": "Don't let the name fool you: this is pure cannabis. Few strains compare to Green Crack's sharp energy and focus as it induces an invigorating mental buzz that keeps you going throughout the day. With a tangy, fruity flavor redolent of mango, Green Crack is the perfect daytime medication for patients treating fatigue, stress, and depression."
+    "description": "Don't let the name fool you: this is pure cannabis. Few strains compare to Green Crack's sharp energy and focus as it induces an invigorating mental buzz that keeps you going throughout the day. With a tangy, fruity flavor redolent of mango, Green Crack is the perfect daytime medication for patients treating fatigue, stress, and depression.Green Crack has branched into two genetic lineages, the most common of which is its sativa line descended from Skunk #1. The 75% indica variety of Green Crack is said to have come from an Afghani strain, and is marked by a tighter bud structure. Because its name perpetuates a negative image of cannabis, some people have taken to calling this strain Cush (with a ��C') or Green Cush instead."
   },
   {
     "node": 52,
@@ -411,7 +415,7 @@
     "name": "Jack-Herer",
     "type": "sativa",
     "rating": 4.4,
-    "description": "Jack Herer is a sativa-dominant cannabis strain that has gained as much renown as its namesake, the marijuana activist and author of The Emperor Wears No Clothes. Many breeders have attempted to cultivate this staple strain themselves in sunny or Mediterranean climates, and indoor growers should wait 50 to 70 days for Jack Herer to flower."
+    "description": "Jack Herer is a sativa-dominant cannabis strain that has gained as much renown as its namesake, the marijuana activist and author of The Emperor Wears No Clothes. Combining a Haze hybrid with a Northern Lights #5 and Shiva Skunk cross, Sensi Seeds created Jack Herer hoping to capture both the cerebral elevation associated with sativas and the heavy resin production of indicas. Its rich genetic background gives rise to several different variations of Jack Herer, each phenotype bearing its own unique features and effects. However, consumers typically describe this 55% sativa hybrid as blissful, clear-headed, and creative.Jack Herer was created in the Netherlands in the mid-1990s, where it was later distributed by Dutch pharmacies as a recognized medical-grade strain. Since then, the spicy, pine-scented sativa has taken home numerous awards for its quality and potency. Many breeders have attempted to cultivate this staple strain themselves in sunny or Mediterranean climates, and indoor growers should wait 50 to 70 days for Jack Herer to flower."
   },
   {
     "node": 59,
@@ -530,7 +534,7 @@
     "name": "Northern-Lights",
     "type": "indica",
     "rating": 4.4,
-    "description": "Northern Lights stands among the most famous strains of all time, a pure indica cherished for its resinous buds, fast flowering, and resilience during growth. Itself a descendant of indigenous Afghani and Thai landrace strains, Northern Lights has given rise to famous hybrids like Shiva Skunk and Super Silver Haze."
+    "description": "Northern Lights stands among the most famous strains of all time, a pure indica cherished for its resinous buds, fast flowering, and resilience during growth. Itself a descendant of indigenous Afghani and Thai landrace strains, Northern Lights has given rise to famous hybrids like Shiva Skunk and Super Silver Haze. Rumor has it that Northern Lights first sprouted near Seattle, Washington, but was propagated out of Holland after 1985 at what is now Sensi Seeds.Pungently sweet, spicy aromas radiate from the crystal-coated buds, which sometimes reveal themselves in hues of purple. Northern Lights' psychoactive effects settle in firmly throughout the body, relaxing muscles and pacifying the mind in dreamy euphoria. Comfortable laziness allows patients to relieve pain and sleeplessness, while its mellow contentment roots out depression and stress. Several different Northern Lights phenotypes circulate the market, but Sensi Seeds recommends a general indoor flowering time of 45 to 50 days."
   },
   {
     "node": 76,
@@ -635,14 +639,14 @@
     "name": "Purple-Tangie",
     "type": "sativa",
     "rating": 4.5,
-    "description": "A spin on the citrus-loaded Tangie sativa, Purple Tangie is a flavorful strain that invigorates the spirit with uplifting euphoria."
+    "description": "A spin on the citrus-loaded Tangie sativa, Purple Tangie is a flavorful strain that invigorates the spirit with uplifting euphoria. In a show of its quality, Purple Tangie took 1st place in the Best Medical Sativa Concentrate\" category at the 2016 High Times Cannabis Cup in Los Angeles. You may find that Purple Tangie offers an energetic kick to your social skills"
   },
   {
     "node": 91,
     "name": "Purple-Urkle",
     "type": "indica",
     "rating": 4.4,
-    "description": "Consumers report the indica effects to be deeply relaxing, sleep-inducing, and a great option for full-body pain relief. The short onset of effects make it a perfect nighttime strain for those who suffer from insomnia."
+    "description": "Purple Urkle's history is as complex as its flavor palate. A California strain, the origins are believed to stem from a select phenotype of Mendocino Purps, while the essence is a blend of skunk, berry, and fresh grapes. Consumers report the indica effects to be deeply relaxing, sleep-inducing, and a great option for full-body pain relief. The short onset of effects make it a perfect nighttime strain for those who suffer from insomnia."
   },
   {
     "node": 92,
@@ -663,42 +667,42 @@
     "name": "Royal-Kush",
     "type": "hybrid",
     "rating": 4.2,
-    "description": "Royal Kush's happy, euphoric relaxation branches out in full-body effects that later ease into deep restfulness conducive for sleep. Patients treating stress, pain, and nausea can benefit from Royal Kush's potent relief, but less seasoned consumers should take caution with this hard-hitter."
+    "description": "Royal Kush by G13 Labs is a king among hybrids, delivering powerful trance-like effects with an earthy, skunky aroma. This balanced hybrid descends from the renowned line of Afghani and Skunk #1, two strains that have gained legendary status among cannabis breeders. Royal Kush's happy, euphoric relaxation branches out in full-body effects that later ease into deep restfulness conducive for sleep. Patients treating stress, pain, and nausea can benefit from Royal Kush's potent relief, but less seasoned consumers should take caution with this hard-hitter. This strain has a unique coverage of white pistil hairs, and growers are recommended an 8 to 13 week flowering time for their indoor Royal Kush plants."
   },
   {
     "node": 95,
     "name": "Sfv-Og",
     "type": "hybrid",
     "rating": 4.4,
-    "description": "SFV OG by Cali Connection is a sativa-dominant hybrid that is great for patients who need strong pain relief but don't want to be stuck on the couch. Although their names are barely distinguishable, SFV OG Kush is actually the Afghani-crossed child to SFV OG. Its indica body effects take a little longer to feel than the initial head haziness, but once they do, everything will feel fine."
+    "description": "SFV OG by Cali Connection is a sativa-dominant hybrid that is great for patients who need strong pain relief but don't want to be stuck on the couch. As the name indicates, this OG Kush relative originates from California's San Fernando Valley. Although their names are barely distinguishable, SFV OG Kush is actually the Afghani-crossed child to SFV OG. The flowers will stay fairly small and may not look super impressive, but what it lacks in looks it makes up for in smell. The pine and lemon earthiness that SFV exudes can be a bit harsh and bitter if smoked, so this strain is one to save for the vaporizer if consuming directly. Its indica body effects take a little longer to feel than the initial head haziness, but once they do, everything will feel fine."
   },
   {
     "node": 96,
     "name": "Sour-Apple",
     "type": "hybrid",
     "rating": 4.2,
-    "description": "You won't get a sugar rush from this strain, however, but it may leave you stuck on the couch. This indica-dominant hybrid is good for after work or on a lazy afternoon. Try this strain if you're looking to relax and ease stress."
+    "description": "Expect to pucker up, because this strain will send your tastebuds a-tinglin'. Bright green in color with a distinct sour apple candy aroma, Sour Apple lives up to its name. You won't get a sugar rush from this strain, however, but it may leave you stuck on the couch. This indica-dominant hybrid is good for after work or on a lazy afternoon. A cross between Sour Diesel and Cinderella 99, Sour Apple at its best is extremely potent and full-bodied. Try this strain if you're looking to relax and ease stress."
   },
   {
     "node": 97,
     "name": "Sour-Diesel",
     "type": "sativa",
     "rating": 4.4,
-    "description": "This fast-acting strain delivers energizing, dreamy cerebral effects that have pushed Sour Diesel to its legendary status. Stress, pain, and depression fade away in long-lasting relief that makes Sour Diesel a top choice among medical patients."
+    "description": "Sour Diesel, sometimes called Sour D, is an invigorating sativa-dominant strain named after its pungent, diesel-like aroma. This fast-acting strain delivers energizing, dreamy cerebral effects that have pushed Sour Diesel to its legendary status. Stress, pain, and depression fade away in long-lasting relief that makes Sour Diesel a top choice among medical patients. This strain took root in the early 90's, and it is believed to have descended from Chemdawg 91 and Super Skunk."
   },
   {
     "node": 98,
     "name": "Sour-Tangie",
     "type": "sativa",
     "rating": 4.6,
-    "description": "Sour Tangie brings together the classic Sour Diesel aroma with Tangie's creative, elevating buzz and strong citrus overtones. Sour Tangie grows quickly in its vegetative cycle and finishes flowering in 9 to 10 weeks indoors."
+    "description": "DNA Genetics' Sour Tangie is an 80% sativa cross between East Coast Sour Diesel and Tangie. Sour Tangie brings together the classic Sour Diesel aroma with Tangie's creative, elevating buzz and strong citrus overtones. This sativa has two different phenotypes that express either Sour Diesel or Tangie bud structures and effects. Sour Tangie grows quickly in its vegetative cycle and finishes flowering in 9 to 10 weeks indoors."
   },
   {
     "node": 99,
     "name": "Strawberry",
     "type": "sativa",
     "rating": 4.4,
-    "description": "Consumers prone to anxiety choose Strawberry for its stress-relieving qualities without the jarring paranoia common among high THC strains. Comfortable and relaxing, Strawberry brings physical and mental relief to patients treating symptoms mild or severe. Strawberry is grown both indoors and out with a 9 week flowering time."
+    "description": "Originally bred in the Netherlands, Strawberry is a mostly sativa cannabis strain with a pungent fruity scent and uplifting effects. Consumers prone to anxiety choose Strawberry for its stress-relieving qualities without the jarring paranoia common among high THC strains. Comfortable and relaxing, Strawberry brings physical and mental relief to patients treating symptoms mild or severe. Strawberry is grown both indoors and out with a 9 week flowering time."
   },
   {
     "node": 100,
@@ -712,7 +716,7 @@
     "name": "Strawberry-Blondie",
     "type": "hybrid",
     "rating": 4.9,
-    "description": "Strawberry Blondie by Los Angeles Kush is an indica-dominant hybrid with soothing effects and full flavors. Known as an exceptional sleep aid, Strawberry Blondie imbues the consumer with an introspective mental buzz and a deep body high that slowly lulls consumers into a meditative and peaceful physical state."
+    "description": "Strawberry Blondie by Los Angeles Kush is an indica-dominant hybrid with soothing effects and full flavors. Created by crossing the famous Strawberry Banana with another indica-dominant dose of fruitiness, Banana OG, this fruit basket strain offers a sweet and flavorful terpene profile with relaxing effects. Known as an exceptional sleep aid, Strawberry Blondie imbues the consumer with an introspective mental buzz and a deep body high that slowly lulls consumers into a meditative and peaceful physical state."
   },
   {
     "node": 102,
@@ -733,7 +737,7 @@
     "name": "Sunset-Sherbert",
     "type": "hybrid",
     "rating": 4.6,
-    "description": "Heir to the Girl Scout Cookies throne is Sunset Sherbet (or Sunset Sherbert), an indica-leaning hybrid with intoxicatingly potent effects. Stress, tension, and sour moods melt away with the carefree mindset and physical relaxation that comes with this rich hybrid."
+    "description": "Heir to the Girl Scout Cookies throne is Sunset Sherbet (or Sunset Sherbert), an indica-leaning hybrid with intoxicatingly potent effects. Sunset Sherbet inherits the genetic lineage of its Girl Scout Cookies parent, whose ancestors include the famed OG Kush, Cherry Pie, and Durban Poison. Crossed with an indica known as Pink Panties, Sunset Sherbet exhibits powerful full-body effects elevated by a jolt of cerebral energy. A complex aroma colors Sunset Sherbet with notes of skunky citrus, sweet berry, and that candy-like smell redolent of its Girl Scout Cookies parent. Stress, tension, and sour moods melt away with the carefree mindset and physical relaxation that comes with this rich hybrid."
   },
   {
     "node": 105,
@@ -747,21 +751,25 @@
     "name": "Super-Lemon-Haze",
     "type": "sativa",
     "rating": 4.4,
+<<<<<<< HEAD
     "description": "A sativa-dominant hybrid of Lemon Skunk and Super Silver Haze and two time Cannabis Cup winner from Green House Seeds. Super Lemon Haze is a kief-caked multi-colored wonder."
+=======
+    "description": "A sativa-dominant hybrid of Lemon Skunk and Super Silver Haze and two time Cannabis Cup winner from Green House Seeds. Super Lemon Haze is a kief-caked multi-colored wonder. As the name states this strain has real lemony characteristics. The smell is zesty, citrusy, and a little sweet. As for the taste, it's everything one would expect from the namesake; tart and sweet like lemonheads candy - not quite as sharp as one might expect. The effects are uniquely energetic and lively, may not be the best strain for those of us that are naturally wound-up tight."
+>>>>>>> 408ffb833a02199b3007f0ba4225efd2d263c934
   },
   {
     "node": 107,
     "name": "Swiss-Tsunami",
     "type": "sativa",
     "rating": 4.8,
-    "description": "Swiss Tsunami is a rare CBD-rich strain with a pungent smell. Enjoy this strain to help relieve inflammation, nausea, and anxiety."
+    "description": "Swiss Tsunami is a rare CBD-rich strain with a pungent smell. A genetic cross of Swiss Gold and Sour Tsunami, Swiss-Tsu is a potent pairing that can generate over 14% CBD with just 0.5% THC on average. Reeking of skunky, herbaceous terpenes and having the bright yet delicate flavor of orange peel on the exhale, Swiss Tsunami is a connoisseur CBD cut in a league of its own. Enjoy this strain to help relieve inflammation, nausea, and anxiety."
   },
   {
     "node": 108,
     "name": "Tangie",
     "type": "sativa",
     "rating": 4.5,
-    "description": "Tangie is another fantastic offering from DNA Genetics in Amsterdam that has quickly gained popularity in its home and is spreading elsewhere. As a plant, Tangie grows best outside, producing sticky buds that provide euphoric yet relaxed effects."
+    "description": "Tangie is another fantastic offering from DNA Genetics in Amsterdam that has quickly gained popularity in its home and is spreading elsewhere. This strain is a remake of sorts of the popular version of Tangerine Dream that was sought-after in the 1990s. The genetics on this strain are a cross of California Orange and a Skunk hybrid, and its citrus heritage is the most evident in its refreshing tangerine aroma. As a plant, Tangie grows best outside, producing sticky buds that provide euphoric yet relaxed effects."
   },
   {
     "node": 109,
@@ -775,28 +783,28 @@
     "name": "Trainwreck",
     "type": "hybrid",
     "rating": 4.2,
-    "description": "Trainwreck is a mind-bending hybrid with potent sativa effects that hit like a freight train. Trainwreck begins its speedy hurtle through the mind with a surge of euphoria, awakening creativity and happiness. Migraines, pain, and arthritis are mowed down by Trainwreck's high THC content, and many patients also use it for relief of anxiety, ADD/ADHD, and PTSD."
+    "description": "Trainwreck is a mind-bending hybrid with potent sativa effects that hit like a freight train. Mexican and Thai sativas were bred with Afghani indicas to produce this Northern California staple, passing on a sweet lemon and spicy pine aroma. Trainwreck begins its speedy hurtle through the mind with a surge of euphoria, awakening creativity and happiness. Migraines, pain, and arthritis are mowed down by Trainwreck's high THC content, and many patients also use it for relief of anxiety, ADD/ADHD, and PTSD. Trainwreck flowers finish up in early October outdoors, while indoor gardens are ready for harvest 8 weeks into flowering."
   },
   {
     "node": 111,
     "name": "Truffle-Butter",
     "type": "indica",
     "rating": 4.5,
-    "description": "Truffle Butter by THClones is a sedating genetic cross with sweet terpenes. Truffle Butter gently sedates the body, turning even seasoned consumers into lethargic couch potatoes. This strain's relaxing qualities make it ideal for abating stress and insomnia."
+    "description": "Truffle Butter by THClones is a sedating genetic cross with sweet terpenes. Created by crossing Gelato and Chocolate Kush, this strain's aroma is a mixture of fruit, caramel, and floral notes. Truffle Butter gently sedates the body, turning even seasoned consumers into lethargic couch potatoes. This strain's relaxing qualities make it ideal for abating stress and insomnia."
   },
   {
     "node": 112,
     "name": "Venom-Og",
     "type": "hybrid",
     "rating": 4.4,
-    "description": "Venom OG from Rare Dankness Seeds is an indica-dominant cross between Poison OG and Rare Dankness #1. Patients have found Venom OG a potent remedy for pain, arthritis, anxiety, and sleep disorders. Venom OG is suitable for outdoor or indoor gardens and its breeders suggest a 50 to 65-day flowering period."
+    "description": "Venom OG from Rare Dankness Seeds is an indica-dominant cross between Poison OG and Rare Dankness #1. Its forest-green buds are dense with a tangle of bright orange hairs, and it has an aroma of skunk, pine, lemon, and diesel. This strain is recommended for nighttime use as its effects tend toward full-body relaxation, but it also provides some sensory elevation that is enjoyable for lazy activities. Patients have found Venom OG a potent remedy for pain, arthritis, anxiety, and sleep disorders. Venom OG is suitable for outdoor or indoor gardens and its breeders suggest a 50 to 65-day flowering period."
   },
   {
     "node": 113,
     "name": "Watermelon",
     "type": "indica",
     "rating": 4.5,
-    "description": "Watermelon is an 80% indica strain. Its large, dense buds are valued for their high THC content and relaxing effects, useful as a sleeping aid or appetite stimulant. As the name suggests, this strain has a distinct fruity watermelon flavor profile, reminiscent of grape with hashy undertones."
+    "description": "Watermelon is an 80% indica strain. Its large, dense buds are valued for their high THC content and relaxing effects, useful as a sleeping aid or appetite stimulant. As the name suggests, this strain has a distinct fruity watermelon flavor profile, reminiscent of grape with hashy undertones. Watermelon is prized by growers for its high yield and potency, requiring 55 to 60 days flowering time."
   },
   {
     "node": 114,
@@ -810,146 +818,146 @@
     "name": "White-Fire-Og",
     "type": "hybrid",
     "rating": 4.5,
-    "description": "Daytime use of this strain won't leave the consumer drowsy, making it a good choice for social and creative activities. White Fire OG is often chosen by patients to treat anxiety and depression, cancer, glaucoma, pain, and appetite loss."
+    "description": "White Fire OG, also known as WiFi OG, is a 60% sativa hybrid with uplifting and comfortable cerebrally focused effects. This strain combines the best features of its parent strains: the sour, earthy, diesel aroma of Fire OG and the high resin production of The White that leaves the plants covered in a dusty snowfall of crystals. Many phenotypes of White Fire OG exist, some with dense, barrel-like buds and others with pointed, conic formations. Daytime use of this strain won't leave the consumer drowsy, making it a good choice for social and creative activities. White Fire OG is often chosen by patients to treat anxiety and depression, cancer, glaucoma, pain, and appetite loss. Growers of White Fire OG can raise their high-yielding plants outdoors or inside with a 65-day flowering period."
   },
   {
     "node": 116,
     "name": "White-Widow",
     "type": "hybrid",
     "rating": 4.3,
-    "description": "Among the most famous strains worldwide is White Widow, a balanced hybrid first bred in the Netherlands by Green House Seeds. A powerful burst of euphoria and energy breaks through immediately, stimulating both conversation and creativity."
+    "description": "Among the most famous strains worldwide is White Widow, a balanced hybrid first bred in the Netherlands by Green House Seeds. A cross between a Brazilian sativa landrace and a resin-heavy South Indian indica,  White Widow has blessed every Dutch coffee shop menu since its birth in the 1990s. Its buds are white with crystal resin, warning you of the potent effects to come. A powerful burst of euphoria and energy breaks through immediately, stimulating both conversation and creativity. White Widow's genetics have given rise to many other legends like White Russian, White Rhino, and Blue Widow. Still, many growers prefer cultivation of the original White Widow, which flowers in about 60 days indoors."
   },
   {
     "node": 117,
     "name": "Xxx-Og",
     "type": "indica",
     "rating": 4.5,
-    "description": "In small doses, XXX OG induces moderately sedating effects that allow some mental clarity and physical energy. As you increase the dose, the fight against lethargy and couchlock becomes futile. This makes XXX OG an excellent remedy for sleeplessness, and severe cases of nausea and chronic pain may benefit from the potent effects of this indica. With a strain this powerful, dosing with caution is key."
+    "description": "XXX OG, from parent strains OG Kush and XXX, is a hard-hitting indica that took 1st place in the 2014 Los Angeles Cannabis Cup. Its bulky, conic buds glow with a heavy, white coat of oozing trichomes, emitting earthy, pine, and lemon notes that combine for a sap-like aroma. In small doses, XXX OG induces moderately sedating effects that allow some mental clarity and physical energy. As you increase the dose, the fight against lethargy and couchlock becomes futile. This makes XXX OG an excellent remedy for sleeplessness, and severe cases of nausea and chronic pain may benefit from the potent effects of this indica. With a strain this powerful, dosing with caution is key."
   },
   {
     "node": 118,
     "name": "Zkittlez",
     "type": "indica",
     "rating": 4.6,
-    "description": "Zkittlez is an indica-dominant mix of Grape Ape and Grapefruit that is crossed with another undisclosed strain to produce this candy-flavored cannabis bred by 3rd Gen Family and Terp Hogz. The effects of Zkittlez are surprisingly uplifting for an indica, leaving consumers focused, alert, and happy while relaxing the body to help unwind any time of day."
+    "description": "Zkittlez is an indica-dominant mix of Grape Ape and Grapefruit that is crossed with another undisclosed strain to produce this candy-flavored cannabis bred by 3rd Gen Family and Terp Hogz. This award-winning combination took 1st Place at the 2016 Emerald Cup and 1st Place Indica at the 2015 Cannabis Cups in San Francisco and in Michigan. The chunky colas explode in a spectrum of light green hues and emit a sweet, tropical blend of fruit flavors. The effects of Zkittlez are surprisingly uplifting for an indica, leaving consumers focused, alert, and happy while relaxing the body to help unwind any time of day."
   },
   {
     "node": 119,
     "name": "Euphoric",
     "type": "effect",
-    "rating": 0,
+    "rating": 118,
     "description": "A feeling of great happiness or well-being"
   },
   {
     "node": 120,
     "name": "Uplifted",
     "type": "effect",
-    "rating": 0,
+    "rating": 88,
     "description": "A feeling of morally or spiritually stimulation"
   },
   {
     "node": 121,
     "name": "Creative",
     "type": "effect",
-    "rating": 0,
+    "rating": 32,
     "description": "Relating to or involving the imagination or original ideas, especially in the production of an artistic work."
   },
   {
     "node": 122,
     "name": "Relaxed",
     "type": "effect",
-    "rating": 0,
+    "rating": 100,
     "description": "Free from tension and anxiety; at ease."
   },
   {
     "node": 123,
     "name": "Sleepy",
     "type": "effect",
-    "rating": 0,
+    "rating": 42,
     "description": "Needing or ready for sleep."
   },
   {
     "node": 124,
     "name": "Hungry",
     "type": "effect",
-    "rating": 0,
+    "rating": 18,
     "description": "Feeling or displaying the need for food."
   },
   {
     "node": 125,
     "name": "Energetic",
     "type": "effect",
-    "rating": 0,
+    "rating": 38,
     "description": "Showing or involving great activity or vitality."
   },
   {
     "node": 126,
     "name": "Focused",
     "type": "effect",
-    "rating": 0,
+    "rating": 29,
     "description": "Pay particular attention to, concentrated."
   },
   {
     "node": 127,
     "name": "Stress",
     "type": "medical",
-    "rating": 0,
+    "rating": 117,
     "description": "Stress is the body's reaction to harmful situations, whether they�re real or perceived. When you feel threatened, a chemical reaction occurs in your body that allows you to act in a way to prevent injury. This reaction is known as \"fight-or-flight,� or the stress response."
   },
   {
     "node": 128,
     "name": "Depression",
     "type": "medical",
-    "rating": 0,
+    "rating": 110,
     "description": "Depression (major depressive disorder or clinical depression) is a common but serious mood disorder. It causes severe symptoms that affect how you feel, think, and handle daily activities, such as sleeping, eating, or working."
   },
   {
     "node": 129,
     "name": "Insomnia",
     "type": "medical",
-    "rating": 0,
+    "rating": 69,
     "description": "Insomnia, also known as sleeplessness, is a sleep disorder where people have trouble sleeping. They may have difficulty falling asleep, or staying asleep as long as desired. Insomnia is typically followed by daytime sleepiness, low energy, irritability, and a depressed mood."
   },
   {
     "node": 130,
     "name": "Lack of Appetite",
     "type": "medical",
-    "rating": 0,
+    "rating": 46,
     "description": "A decreased appetite occurs when you have a reduced desire to eat. It may also be known as a poor appetite or loss of appetite."
   },
   {
     "node": 131,
     "name": "Fatigue",
     "type": "medical",
-    "rating": 0,
+    "rating": 41,
     "description": "Extreme tiredness, typically resulting from mental or physical exertion or illness."
   },
   {
     "node": 132,
     "name": "Headache",
     "type": "medical",
-    "rating": 0,
+    "rating": 37,
     "description": "Headache is the symptom of pain anywhere in the region of the head or neck. It occurs in migraines (sharp, or throbbing pains), tension-type headaches, and cluster headaches."
   },
   {
     "node": 133,
     "name": "Muscle Spasm",
     "type": "medical",
-    "rating": 0,
+    "rating": 19,
     "description": "Muscle spasm is an involuntary contraction of a muscle that can cause a great deal of pain."
   },
   {
     "node": 134,
     "name": "Inflammation",
     "type": "medical",
-    "rating": 0,
+    "rating": 18,
     "description": "A localized physical condition in which part of the body becomes reddened, swollen, hot, and often painful, especially as a reaction to injury or infection."
   },
   {
     "node": 135,
     "name": "Nausea",
     "type": "medical",
-    "rating": 0,
+    "rating": 16,
     "description": "A feeling of sickness with an inclination to vomit."
   }
 ],
