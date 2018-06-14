@@ -142,7 +142,8 @@ d3.json("strains.json", function(error, graph) {
                 return d.target.name + "\nInduces: " + d.source.name;
             } else {
                 return d.source.name + "\nRelieves: " + d.target.name;
-            } });
+            } })
+        ;
 
 // add in the nodes
   var node = svg.append("g").selectAll(".node")
@@ -226,7 +227,7 @@ d3.json("strains.json", function(error, graph) {
         } else {
             return "Strain Name: " + d.name + "\nUser Ratings: " + d.rating + "/5" + "\nDescription: " + d.description;       
         } })
-      .style("opacity", 0);
+      ;
 
 // add in the title for the nodes
   node.append("text")
