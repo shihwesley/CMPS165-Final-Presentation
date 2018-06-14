@@ -37,18 +37,35 @@
     
 .tooltip { 
     position: absolute;
-	text-align: center;
-	padding: 2px;
-	font: 12px sans-serif;
-	background: aliceblue;
-	border: 0px;
-	border-radius: 8px;
-	pointer-events: none;
+    width: auto;
+    height: auto; /* auto sets the height of the box*/
+    background-color: aliceblue; /* color of the tooltip */
+    border-radius: 8px; 
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4); 
+    pointer-events: none;
+    padding: 4px;
 }
     
-    body {
-        background-color: #f2f1ea;
-    }
+#sources {
+    text-align: center;
+    background-color: #f0f8ff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*
+#createdBy {
+    text-align: center;
+}
+    
+#designedFor {
+    text-align: center;
+}
+*/
+    
+body {
+    background-color: #f2f1ea;
+}
     
 
 </style>
@@ -56,7 +73,6 @@
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="sankey.js"></script>
-
 
 <div style = "text-align:center">
   <input type="radio" name ="type" value="sativa" onclick=filterBy(this.value)><span style="color:blue">Sativa (21)<br/></span>
@@ -67,7 +83,7 @@
     
 <div style="clear: both">
     <h2 style="float: left; display: inline; color: orange">Emotional Effects</h2>
-    <h2 style="float: center; display: inline; margin-left: 32%">Strains</h2>
+    <h2 style="float: center; display: inline; margin-left: 30%">Strains</h2>
     <h2 style="float: right; display: inline; color: #42f48c">Medical Purposes</h2>
 </div>
 
@@ -80,7 +96,7 @@ var tooltip;
 
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 10, bottom: 10, left: 10},
-    width = 1300 - margin.left - margin.right,
+    width = 1425 - margin.left - margin.right,
     height = 1000 - margin.top - margin.bottom;
 
 // format variables
@@ -221,7 +237,6 @@ d3.json("strains.json", function(error, graph) {
         } else {
             return "Strain Name: " + d.name + "\nUser Ratings: " + d.rating + "/5" + "\nDescription: " + d.description;       
         } });
-
     
     node.append("text")
 			  .attr("class","nodeValue")
@@ -272,50 +287,50 @@ d3.json("strains.json", function(error, graph) {
 
 render();
     
-function highlight_node_links(node,i){
-
-    var remainingNodes=[],
-        nextNodes=[];
-
-    var stroke_opacity = 0;
-    if( d3.select(this).attr("data-clicked") == "1" ){
-      d3.select(this).attr("data-clicked","0");
-      stroke_opacity = 0.2;
-    }else{
-      d3.select(this).attr("data-clicked","1");
-      stroke_opacity = 0.5;
-    }
-
-    var traverse = [{
-                      linkType : "sourceLinks",
-                      nodeType : "target"
-                    },{
-                      linkType : "targetLinks",
-                      nodeType : "source"
-                    }];
-
-    traverse.forEach(function(step){
-      node[step.linkType].forEach(function(link) {
-        remainingNodes.push(link[step.nodeType]);
-        highlight_link(link.id, stroke_opacity);
-      });
-
-      while (remainingNodes.length) {
-        nextNodes = [];
-        remainingNodes.forEach(function(node) {
-          node[step.linkType].forEach(function(link) {
-            nextNodes.push(link[step.nodeType]);
-            highlight_link(link.id, stroke_opacity);
-          });
-        });
-        remainingNodes = nextNodes;
-      }
-    });
-}
-
-function highlight_link(id,opacity){
-    d3.select("#link-"+id).style("stroke-opacity", opacity);
-}
+//function highlight_node_links(node,i){
+//
+//    var remainingNodes=[],
+//        nextNodes=[];
+//
+//    var stroke_opacity = 0;
+//    if( d3.select(this).attr("data-clicked") == "1" ){
+//      d3.select(this).attr("data-clicked","0");
+//      stroke_opacity = 0.2;
+//    }else{
+//      d3.select(this).attr("data-clicked","1");
+//      stroke_opacity = 0.5;
+//    }
+//
+//    var traverse = [{
+//                      linkType : "sourceLinks",
+//                      nodeType : "target"
+//                    },{
+//                      linkType : "targetLinks",
+//                      nodeType : "source"
+//                    }];
+//
+//    traverse.forEach(function(step){
+//      node[step.linkType].forEach(function(link) {
+//        remainingNodes.push(link[step.nodeType]);
+//        highlight_link(link.id, stroke_opacity);
+//      });
+//
+//      while (remainingNodes.length) {
+//        nextNodes = [];
+//        remainingNodes.forEach(function(node) {
+//          node[step.linkType].forEach(function(link) {
+//            nextNodes.push(link[step.nodeType]);
+//            highlight_link(link.id, stroke_opacity);
+//          });
+//        });
+//        remainingNodes = nextNodes;
+//      }
+//    });
+//}
+//
+//function highlight_link(id,opacity){
+//    d3.select("#link-"+id).style("stroke-opacity", opacity);
+//}
 
 function clearSankey() {
     var sankeyDiagram = document.getElementById('sankeydiagram');
@@ -343,7 +358,6 @@ function filterBy(x) {
     render();
 }
     
-
 </script>
     
 <div id="sources">

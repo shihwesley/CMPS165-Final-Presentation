@@ -1,8 +1,0 @@
-Topic 1: Different type of guns used in gun Violences in the States.
-Description: This topic analyzes gun violence data/states from https://www.kaggle.com/jameslko/gun-violence-data/data. We are focusing on the gun types used in all the incidents in the States. 
-
-Topic 2: Nuclear Radiation effecting Fukushima 
-Decription: This topic focuses on the radiation amount on fukushima's food.
-
-Topic 3: Different types of Cannabis strain types.
-Description: We are going to analze the different type of cannabis strains and its flavor and Effect. We also have the ratings of each strains.
