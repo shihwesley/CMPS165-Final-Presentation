@@ -41,6 +41,7 @@
     
 .tooltip { 
     position: absolute;
+    opacity: 0;
 	text-align: center;
 	padding: 2px;
 	font: 12px sans-serif;
@@ -224,7 +225,8 @@ d3.json("strains.json", function(error, graph) {
             return "Medical Problem: " + d.name + "\nDefinition: " + d.description;
         } else {
             return "Strain Name: " + d.name + "\nUser Ratings: " + d.rating + "/5" + "\nDescription: " + d.description;       
-        } });
+        } })
+      .style("opacity", 0);
 
 // add in the title for the nodes
   node.append("text")
